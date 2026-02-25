@@ -1,0 +1,23 @@
+pipeline {
+  agent any
+
+  stages {
+    stage('Clonar repositorio git Mi Portfolio desde Github ok') {
+      steps {
+          git branch: 'master', url: 'https://github.com/morgadodesarrollador/portfolioHelm.git'
+      }
+    }
+    // stage('Checkout ') {
+    //   steps {
+    //     echo "Repositorio clonado correctamente"
+    //     sh 'ls -la'
+    //   }
+    // }
+
+    stage('Info') {
+      steps {
+        sh 'git rev-parse --short HEAD'
+      }
+    }
+  }
+}

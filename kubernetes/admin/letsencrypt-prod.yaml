@@ -1,0 +1,21 @@
+apiVersion: cert-manager.io/v1
+kind: ClusterIssuer
+metadata:
+  name: letsencrypt-prod
+spec:
+  acme:
+    # Email para avisos de caducidad y problemas
+    email: morgadodesarrollador@gmail.com
+
+    # Endpoint ACME de producción de Let's Encrypt
+    server: https://acme-v02.api.letsencrypt.org/directory
+
+    # Secret donde cert-manager guardará la cuenta ACME
+    privateKeySecretRef:
+      name: letsencrypt-prod-account-key
+
+    # Solver HTTP-01 usando ingress-nginx
+    solvers:
+      - http01:
+          ingress:
+            ingressClassName: nginx
