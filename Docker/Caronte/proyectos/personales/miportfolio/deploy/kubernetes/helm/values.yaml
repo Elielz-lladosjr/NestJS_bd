@@ -1,7 +1,7 @@
 app:
   name: miportfolio
   image:
-    repository: morgadoberruezo/miportfolio
+    repository: elielzberruezo/miportfolio
     tag: latest
     pullPolicy: Always
   # containerPort: 3000   
@@ -16,7 +16,7 @@ app:
   ingress:
     enabled: true
     className: nginx
-    host: miportfolio.jamorgado.es
+    host: miportfolio.jaelielz.es
     path: /
     tls:
       enabled: true

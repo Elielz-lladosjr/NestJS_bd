@@ -1,4 +1,4 @@
-FROM morgadoberruezo/ubnginx
+FROM elielzberruezo/ubnginx
 
 ARG PROYECTO
 ARG USUARIO
@@ -14,7 +14,7 @@ RUN apt-get install -y nodejs
 
 # RUN npm install -g npm@latest
 
-# no crearlo en /home pq el usuario morgado no se crea en esta etapa
+# no crearlo en /home pq el usuario elielz no se crea en esta etapa
 RUN mkdir -p /root/${USUARIO}/app
 RUN mkdir -p /app
 

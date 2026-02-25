@@ -3,7 +3,7 @@ services:
     build: 
       context: ${CONTEXTO}
       dockerfile: ./dockerfiles/base/ubbase
-    image: morgadoberruezo/ubbase
+    image: elielzberruezo/ubbase
     container_name: ${CONTENEDOR}
     env_file:
       - ./.env

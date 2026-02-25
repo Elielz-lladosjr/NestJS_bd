@@ -24,7 +24,7 @@ check_home(){
 }
 newUser(){
     check_usuario
-    # `cat /et/password | grep morgado`
+    # `cat /et/password | grep elielz`
     if [ "$?" -eq 0 ] #no existe usuario en passwd
     then 
         check_home

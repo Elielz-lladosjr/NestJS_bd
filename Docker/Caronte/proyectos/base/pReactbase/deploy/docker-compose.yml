@@ -8,7 +8,7 @@ services:
         - USUARIO=${USUARIO}
         - TIPO=${TIPO}
         
-    image: morgadoberruezo/ubreact
+    image: elielzberruezo/ubreact
     container_name: ctreact
     env_file:
       - .env

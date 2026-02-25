@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/morgadodesarrollador/portfolioHelm.git
+    repoURL: https://github.com/elielzdesarrollador/portfolioHelm.git
     targetRevision: main
     path: deploy/kubernetes/helm
 

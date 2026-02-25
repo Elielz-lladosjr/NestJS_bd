@@ -9,14 +9,14 @@ argo-cd:
     ingress:
       enabled: true
       ingressClassName: nginx
-      hostname: argocd.jamorgado.es
+      hostname: argocd.jaelielz.es
       # hosts:
-      #   - argocd.jamorgado.es
+      #   - argocd.jaelielz.es
 
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
 
       tls:
         - hosts:
-            - argocd.jamorgado.es
+            - argocd.jaelielz.es
           secretName: argocd-server-tls

@@ -7,7 +7,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-    - host: miportfolio.jamorgado.es
+    - host: miportfolio.jaelielz.es
       http:
         paths:
           - path: /

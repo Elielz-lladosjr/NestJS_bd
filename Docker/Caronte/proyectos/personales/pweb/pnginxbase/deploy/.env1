@@ -1,11 +1,11 @@
-# CONTEXTO=/home/morgado/devops/cursos/24-25/Caronte
-CONTEXTO=/Users/morgado/Personal/Modulos/HLC/24-25/Caronte/
-AUTOR=morgadoberruezo
+# CONTEXTO=/home/elielz/devops/cursos/24-25/Caronte
+CONTEXTO=/Users/elielz/Personal/Modulos/HLC/24-25/Caronte/
+AUTOR=elielzberruezo
 TZ=Europe/Madrid
 PROYECTO=pbiblioteca
 
-USUARIO=morgado
-PASSWD=morgado
+USUARIO=elielz
+PASSWD=elielz
 CONTENEDOR=ctngnixbase
 
 HOSTNAME=nginx1

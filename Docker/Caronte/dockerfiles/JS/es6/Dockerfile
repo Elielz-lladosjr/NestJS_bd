@@ -1,4 +1,4 @@
-FROM morgadoberruezo/ubnginx
+FROM elielzberruezo/ubnginx
 
 ARG PROYECTO
 ARG USUARIO

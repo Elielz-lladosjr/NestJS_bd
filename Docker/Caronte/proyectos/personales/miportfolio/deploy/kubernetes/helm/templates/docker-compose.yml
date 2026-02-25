@@ -27,7 +27,7 @@ services:
       args:
         - CONTEXT=${CONTEXTO}
         - MICROSERVICIO=${MICROSERVICIO}
-    image: morgadoberruezo/caronte-${MICROSERVICIO}
+    image: elielzberruezo/caronte-${MICROSERVICIO}
     container_name: caronte-ms-usuarios
     ports:
       - "${PORT}:3000"

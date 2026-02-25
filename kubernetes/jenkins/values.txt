@@ -21,7 +21,7 @@ controller:
   ingress:
     enabled: true
     ingressClassName: nginx
-    hostName: jenkins.jamorgado.es
+    hostName: jenkins.jaelielz.es
   additionalPlugins: []
   installPlugins:
     - configuration-as-code

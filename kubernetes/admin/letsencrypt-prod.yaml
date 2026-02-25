@@ -5,7 +5,7 @@ metadata:
 spec:
   acme:
     # Email para avisos de caducidad y problemas
-    email: morgadodesarrollador@gmail.com
+    email: elielzdesarrollador@gmail.com
 
     # Endpoint ACME de producción de Let's Encrypt
     server: https://acme-v02.api.letsencrypt.org/directory

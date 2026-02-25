@@ -20,7 +20,7 @@ spec:
             type: DirectoryOrCreate
       containers:
         - name: miportfolio
-          image: morgadoberruezo/miportfolio:latest
+          image: elielzberruezo/miportfolio:latest
           imagePullPolicy: Always
           envFrom:
             - configMapRef:
@@ -29,7 +29,7 @@ spec:
             - containerPort: 80
           volumeMounts:
             - name: logs
-              mountPath: /home/morgado/logs
+              mountPath: /home/elielz/logs
           resources:
               requests:
                 cpu: "100m"
